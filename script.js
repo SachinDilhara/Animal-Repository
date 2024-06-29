@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function () {
     const tableBody = d3.select('#data-table tbody');
 
-    fetch('https://SachinDilhara.github.io/Animal-Repository/firebaseData.json')
+    fetch('https://github.com/SachinDilhara/Animal-Repository/firebaseData.json')
         .then(response => response.json())
         .then(data => {
             const animals = data.Animal;
