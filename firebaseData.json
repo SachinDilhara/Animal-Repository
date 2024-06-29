@@ -1,0 +1,137 @@
+{
+  "Admin": {
+    "A001": {
+      "Name": "Admin01",
+      "Password": "Admin@001",
+      "User_name": "Admin001"
+    },
+    "A002": {
+      "Name": "Admin02",
+      "Password": "Admin@002",
+      "User_name": "Admin002"
+    }
+  },
+  "Animal": {
+    "An001": {
+      "Average_Lifespan(years)": " 20-25",
+      "Behavior_and_Social_Structure ": "Zebras live in herds with a social structure that  includes harems (one stallion with multiple mares) or bachelor groups. They are  known for their strong social bonds and vocal communications.",
+      "Conservation_Status": "Varies by species (Plains Zebra: Least Concern, Mountain  Zebra: Vulnerable, Grévy's Zebra: Endangered)",
+      "Diet": "Herbivorous (primarily grasses)",
+      "Geographic Distribution": "Eastern and Southern Africa",
+      "Habitats": " Savannas, grasslands, and woodlands",
+      "Name": "Zebra",
+      "Species": "Equus quagga (Plains Zebra), Equus zebra (Mountain Zebra), Equus  grevyi (Grévy's Zebra)"
+    },
+    "An002": {
+      "Average_Lifespan(years)": "35-50",
+      "Behavior_and_Social_Structure": " Rhinos are mostly solitary except for mothers  with calves or occasional male-female pairs. They have large home ranges and  use mud wallows to keep cool and remove parasites.",
+      "Conservation_Status": "Critically Endangered to Near Threatened depending on  species",
+      "Diet": "Herbivorous (grasses, leaves, branches, and fruits)",
+      "Geographic_Distribution": "Africa (Southern and Eastern regions) and Asia (India  and Indonesia for some species)",
+      "Habitats": "Savannas, grasslands, and tropical forests",
+      "Name": "Rhinoceros",
+      "Species": " Various species including White Rhinoceros (Ceratotherium simum)  and Black Rhinoceros (Diceros bicornis"
+    },
+    "An003": {
+      "Average_Lifespan(years)": " 10-14",
+      "Behavior_and_Social_Structure": " Lions live in prides consisting of related females,  their offspring, and a coalition of males. They are social cats with strong  cooperative hunting strategies.",
+      "Conservation_Status": "Vulnerable",
+      "Diet": "Carnivorous",
+      "Geographic_Distribution": "Sub-Saharan Africa, with a small population in India  (Asiatic lion)",
+      "Habitats": " Savannas, grasslands, dense bush, and open woodlands",
+      "Name": "Lion",
+      "Species": " Panthera leo"
+    },
+    "An004": {
+      "Average_Lifespan(years)": "70-100",
+      "Behavior_and_Social_Structure": "Crocodiles are generally solitary but may  congregate in large numbers at abundant food sources. They are highly territorial  and exhibit complex social behaviors during breeding.",
+      "Conservation_Status": "Varies by species (some Least Concern, others Vulnerable  or Critically Endangered)",
+      "Diet": "Carnivorous (fish, birds, mammals, and other reptiles)",
+      "Geographic_Distribution ": "Africa, Asia, the Americas, and Australia",
+      "Habitats": "Rivers, lakes, wetlands, and coastal regions",
+      "Name": "Crocodile",
+      "Species": "Various species including Nile Crocodile (Crocodylus niloticus) and  Saltwater Crocodile (Crocodylus porosus)"
+    },
+    "An005": {
+      "Average_Lifespan(years)": "10-15",
+      "Behavior_and_Social_Structure ": " Deer stags are generally solitary or form small  bachelor groups outside of the breeding season (rut). During the rut, they become  highly territorial and engage in antler battles for access to females. They use  vocalizations and scent marking to establish dominance.",
+      "Conservation_Status": "Varies by species (many are Least Concern, but some like  the Red Deer in certain regions can be threatened)",
+      "Diet": "Herbivorous (grasses, leaves, twigs, fruits, and nuts)",
+      "Geographic_Distribution": " Widely distributed across North America, Europe, Asia,  and northern Africa",
+      "Habitats": "Forests, grasslands, wetlands, and mountainous regions",
+      "Name": "Deer Stag",
+      "Species": " Various species including Red Deer (Cervus elaphus), White-tailed  Deer (Odocoileus virginianus), and Mule Deer (Odocoileus hemionus)"
+    },
+    "An006": {
+      "Average_Lifespan(years)": " 10-15",
+      "Behavior_and_Social_Structure": "Deer does are generally more social than stags,  often forming matriarchal groups consisting of females and their offspring. They  are responsible for raising fawns and exhibit strong maternal instincts.",
+      "Conservation_Status": " Varies by species (many are Least Concern, but some can  be threatened in certain regions)",
+      "Diet": "Herbivorous (grasses, leaves, twigs, fruits, and nuts)",
+      "Geographic_Distribution": "Widely distributed across North America, Europe, Asia,  and northern Africa",
+      "Habitats": "Forests, grasslands, wetlands, and mountainous regions",
+      "Name": "Deer Doe",
+      "Species": "Various species including White-tailed Deer (Odocoileus virginianus),  Mule Deer (Odocoileus hemionus), and Red Deer (Cervus elaphus)"
+    },
+    "An007": {
+      "Average_Lifespan(years)": " 3-4",
+      "Behavior_and_Social_Structure": " Foxes are generally solitary animals, though they  may form family groups. They are known for their adaptability and cunning  hunting strategies.",
+      "Conservation_Status ": "Least Concern",
+      "Diet": "Omnivorous (small mammals, birds, fruits, and insects)",
+      "Geographic_Distribution": "Widespread across the Northern Hemisphere",
+      "Habitats": "Forests, grasslands, mountains, deserts, and urban areas",
+      "Name": "Fox",
+      "Species": "Various species including Red Fox (Vulpes vulpes) and Arctic Fox  (Vulpes lagopus)"
+    },
+    "An008": {
+      "Average_Lifespan(years)": " 6-8",
+      "Behavior_and_Social_Structure": "Gray wolves live in packs that consists of a  dominant an alpha male and female, their offspring, and subordinate pack  members.",
+      "Conservation_Status": "Varies by region and subspecies, ranging from Least  Concern to Endangered",
+      "Diet": "Carnivorous (primarily ungulates such as deer, elk, moose, and smaller prey  like rabbits and rodents)",
+      "Geographic_Distribution": " North America, Europe, and Asia, Africa",
+      "Habitats": "Varied habitats including forests, tundra, grasslands, and mountains",
+      "Name": "Gray Wolf",
+      "Species": "Canis lupus"
+    },
+    "An009": {
+      "Average_Lifespan(years)": "60-70",
+      "Behavior_and_Social_Structure": "Elephants are highly social animals, living in matriarchal family groups. They exhibit complex behaviors such as mourning play and user of tools. Herds are typically led by the oldest female and males often live solitary lives or form smaller bachelor groups",
+      "Conservation_Status": "Asian Elephant : Endangered, African Savannah Elephant : Endangered, African Forest : Critically Endangered ",
+      "Diet": "Herbivorous(grass, fruit, bark and leaves)",
+      "Geographic_Distribution": "Sub - Saharan Africa, South Asia and Southeast Asia ",
+      "Habitats": "Savannahs, forests, deserts, and marshes",
+      "Name": "Elephant",
+      "Species": "Elephas maximus(Asian Elephant) , Loxodonta africana(African Savanna Elephant) , Loxodonta cyclotis(African Forest Elephant)"
+    }
+  },
+  "Inventory": {
+    "I001": {
+      "Animal_Who_Ate": 3,
+      "Description": "Animals food are included",
+      "Name": "Inventory01"
+    }
+  },
+  "Island": {
+    "I001": {
+      "Area(km2)": 10000,
+      "Name": "Island01",
+      "No_of_Animals": 20
+    }
+  },
+  "Player": {
+    "P001": {
+      "No_of_Animals_Interacted": 10,
+      "Total_Time_Played(hrs)": 1,
+      "User_name": "Player01"
+    },
+    "P002": {
+      "No_of_Animals_Interacted": 7,
+      "Total_Time_Played(hrs)": 2,
+      "User_name": "Player02"
+    },
+    "P003": {
+      "No_of_Animals_Interacted": 5,
+      "Total_Time_Played(hrs)": 1.5,
+      "User_name": "Player03"
+    }
+  }
+}
