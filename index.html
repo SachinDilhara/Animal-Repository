@@ -3,21 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Firebase JSON to Table</title>
+    <title>Animal Information Table</title>
     <script src="https://d3js.org/d3.v7.min.js"></script>
     <style>
         table {
             width: 100%;
             border-collapse: collapse;
-            margin-top: 20px;
         }
         table, th, td {
             border: 1px solid black;
-            padding: 8px;
-            text-align: left;
         }
-        th {
-            background-color: #f2f2f2;
+        th, td {
+            padding: 10px;
+            text-align: left;
         }
     </style>
 </head>
@@ -27,14 +25,41 @@
             <tr>
                 <th>Animal ID</th>
                 <th>Name</th>
-                <th>Habitats</th>
+                <th>Species</th>
+                <th>Average Lifespan (years)</th>
+                <th>Behavior and Social Structure</th>
                 <th>Conservation Status</th>
+                <th>Diet</th>
+                <th>Geographic Distribution</th>
+                <th>Habitats</th>
             </tr>
         </thead>
         <tbody>
-            <!-- Table body will be populated by JavaScript -->
         </tbody>
     </table>
-    <script src="script.js"></script>
+    <script>
+        // Load the JSON file
+        fetch('firebaseData.json')
+            .then(response => response.json())
+            .then(data => {
+                const tableBody = d3.select('#data-table tbody');
+                const animals = data.Animal;
+
+                Object.keys(animals).forEach(animalId => {
+                    const animal = animals[animalId];
+                    const row = tableBody.append('tr');
+                    row.append('td').text(animalId);
+                    row.append('td').text(animal.Name);
+                    row.append('td').text(animal.Species);
+                    row.append('td').text(animal["Average_Lifespan(years)"]);
+                    row.append('td').text(animal.Behavior_and_Social_Structure);
+                    row.append('td').text(animal.Conservation_Status);
+                    row.append('td').text(animal.Diet);
+                    row.append('td').text(animal.Geographic_Distribution);
+                    row.append('td').text(animal.Habitats);
+                });
+            })
+            .catch(error => console.error('Error loading JSON:', error));
+    </script>
 </body>
 </html>
